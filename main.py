@@ -32,10 +32,10 @@ def init():
 def register():
     print("***** Registration Portal*****")
 
-    first_name=input("Enter your First Name: ")
-    last_name=input("Enter your Last Name: ")
-    e_mail=input("Enter your Email address:")
-    password=input("Create your passsword: ")
+    first_name = input("Enter your First Name: ")
+    last_name = input("Enter your Last Name: ")
+    e_mail = input("Enter your Email address:")
+    password = input("Create your passsword: ")
 
     account_number = generate_random_number()
     card_number = generate_random_number()
